@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "skeet-flutter"
+  },
+  "targets": {
+    "skeet-flutter": {
+      "hosting": {
+        "skeet-flutter": [
+          "skeet-flutter"
+        ]
+      }
+    }
+  }
+}

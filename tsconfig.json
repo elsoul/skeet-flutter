@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@assets/*": ["./assets/*"],
+      "@lib/*": ["lib/*"],
+      "@root/*": ["./*"],
+    }
+  },
+  "include": ["**/*.ts", "src/**/*", "lib/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
